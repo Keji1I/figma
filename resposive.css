@@ -1,0 +1,53 @@
+@media(
+    max-width : 576px){
+       header .nav_bar{
+            
+            background-color: white;
+            padding-left: 10px;
+            width: 0;
+        }
+
+        header .nav_bar .logo {
+            margin: 0;
+        }
+
+       header .nav_bar .logo h1{
+           font-size: 25px;
+        }
+
+        header .nav_bar .logo img{
+            height: 1.5rem;
+        }
+
+        .nav_bar nav ul li a{
+            display: none;
+        }
+
+        header .nav_bar .button{
+           
+            display: flex;
+            
+            
+        }
+
+        /* header .nav_bar .button .btn1{
+            margin-right: 40px;
+        } */
+
+        header .nav_bar .button .btn2{
+            font-size: 15px;
+            width: 80px;
+        }
+
+        header .showcase .show_content{
+            width: 10px;
+            height: 50px;
+        }
+
+        header .showcase .show_img img{
+            height: 20px;
+        } 
+    }
+
+    
+
